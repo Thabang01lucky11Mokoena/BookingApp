@@ -1,0 +1,101 @@
+page-rooms {
+    text-align: center;
+    font-family: Gill Sans MT;
+}
+.col1{
+    background-image: url("../../assets/imgs/DP_Kuala_Selangor.jpg");
+    background-size: cover;
+    padding-top: 50px;
+    width: 100%;
+    height: 27vh;
+    right: 1.5%;
+    box-shadow: inset 0px 0px 15px black;
+    // opacity: 0.8; 
+  }
+ .col2{
+    background-image: url("../../assets/imgs/cabanas-aires-de-montana.jpg");
+    background-size: cover;
+    height: 27vh;
+    width: 100%; 
+    padding-top: 50px;
+    left: 1.5%;
+    box-shadow: inset 0px 0px 15px black;
+    // opacity: 0.8; 
+ }
+ .col3{
+    background-image: url("../../assets/imgs/Chalet\ 2.jpg");
+    background-size: cover; 
+    padding-top: 50px;
+    width: 100%;
+    height: 27vh;
+    right: 1.5%;
+    box-shadow: inset 0px 0px 15px black;
+    // opacity: 0.8; 
+ }
+ .col4{
+    background-image: url("../../assets/imgs/luxury.jpg");
+    background-size: cover;
+    height: 27vh;
+    width: 100%;
+    padding-top: 45px;
+    left: 1.5%;
+    box-shadow: inset 0px 0px 15px black;
+    // opacity: 0.8; 
+ }
+ .col5{
+    background-image: url("../../assets/imgs/family\ .jpg");
+    background-size: cover;
+    // opacity: 0.8;
+    padding-top: 40px; 
+    height: 27vh;
+    right: 1.5%;
+    box-shadow: inset 0px 0px 15px black; 
+ }
+ .col6{
+    background-image: url("../../assets/imgs/double\ Guest.jpg");
+    background-size: cover; 
+    width: 100%;
+    height: 27vh;
+    padding-top: 40px;
+    left: 1.5%;
+    box-shadow: inset 0px 0px 15px black; 
+    // opacity: 0.8;
+ }
+ .col7{
+    background-image: url("../../assets/imgs/bush.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 27vh; 
+    padding-top: 30px;
+    right: 1.5%;
+    box-shadow: inset 0px 0px 15px black;
+    // opacity: 0.8; 
+ }
+ .col8{
+    background-image: url("../../assets/imgs/Mabula-home-cover-gallery-2.jpg");
+    background-size: cover; 
+    padding-top: 29px;
+    height: 27vh;
+    left: 1.5%;
+    box-shadow: inset 0px 0px 15px black; 
+    // opacity: 0.8;
+ }
+ h4{
+    color: white;
+    text-shadow: 5px 5px 15px black;
+    // font-weight: lighter;
+    font-family: 'Arial Narrow', Arial, sans-serif
+}
+.bgr{
+    background-color: black;
+}
+.bg{
+    background-color: transparent;
+    background-color: #FFFFFF;
+    opacity: 0.9;
+    filter: alpha(opacity=50);
+    background: rgba(255, 255, 255, 0.5);
+}
+.toolbar-ios {
+    min-height: 70px;
+}

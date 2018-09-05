@@ -1,0 +1,50 @@
+<!--
+  Generated template for the ViewPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title>Your Booking Details</ion-title>
+    <img src="../../assets/imgs/home-7-256.png" (click)="NextPage()" width="30px" align="right">
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="bg">
+<br>
+<br>
+  <ion-list>
+    <ion-item-sliding>
+      <ion-item nopadding *ngFor="let b of boy; let i=index">
+        <h3>Name</h3>
+        <p>{{b.name}}</p>
+        <br>
+        <h3>Email Adress</h3>
+        <p>{{b.Email}}</p>
+        <br>
+        <h3>Check-in Date</h3>
+        <p>{{b.Checkin}}</p>
+        <br>
+        <h3>Check-out Date</h3>
+        <p>{{b.Checkout}}</p>
+        <br>
+        <h3>Number of Guests</h3>
+        <p>{{b.GuestNumber}}</p>
+        <br>
+        <h3>Number Of Kids</h3>
+        <p>{{b.kids}}</p>
+        <br>
+        <h3>Total Payment</h3>
+        <p>R {{b.Payment}}.00</p>
+        <br>
+        <h3>Accommodation</h3>
+        <p>{{b.Room}}</p>
+      </ion-item>
+    </ion-item-sliding>
+
+  </ion-list> 
+   
+</ion-content>
